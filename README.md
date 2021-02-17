@@ -1,2 +1,2 @@
 # tindog-landing-page
-TinDog Landing Page - Web Dev bootbamp project
+TinDog Landing Page - Web Dev bootcamp project using Bootstrap
