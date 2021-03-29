@@ -10,6 +10,7 @@ h1, h2, h3 {
 
 p {
     color: #8f8f8f;
+    margin-bottom: 5px;
 }
 
 
@@ -25,7 +26,7 @@ p {
 
 .section-heading {
     font-size: 3rem;
-    line-height: 1.5rem;
+    line-height: 1.5;
     padding-bottom: 25px;
 }
 
@@ -179,15 +180,43 @@ p {
 
 /* Media Queries */
 
+@media (max-width: 475px) {
+
+    .big-heading {
+        font-size: 3rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem;
+    }
+
+    .section-heading {
+        font-size: 2rem;
+    }
+
+    .press-img {
+        margin: 20px;
+    }
+
+    #pricing {
+        padding: 50px; 
+    }
+
+    h3.big-heading {
+        font-size: 2.5rem;
+    }
+
+}
+
 @media (max-width: 1080px) {
     #title {
         text-align: center;
-
     }
 
     .title-img {
         position: static;
         transform: rotate(0);
     }
+
 }
 
